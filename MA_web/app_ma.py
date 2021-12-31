@@ -64,7 +64,7 @@ data_training_array = scaler.fit_transform(data_training)
 
 # x_train, y_train  = np.array(x_train), np.array(y_train)
 model = load_model(
-    "C:\\Users\\sansk\\OneDrive\\Desktop\\stockMA\\MA_web\\keras_model.h5")
+    "D:\\EDAI\\stockMA\\MA_web\\keras_model.h5")
 # testing part
 past_100_days = data_training.tail(100)
 final_df = past_100_days.append(data_testing, ignore_index=True)
