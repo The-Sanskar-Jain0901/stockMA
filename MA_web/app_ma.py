@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pandas_datareader as data
 import streamlit as st
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 # from tensorflow.keras.layers import Dense, Dropout, LSTM
 # from tensorflow.keras.models import Sequential
 
